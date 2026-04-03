@@ -3,6 +3,7 @@ name: GPUs and Parallelism
 description: An overview of how GPUs work and how they're used.
 authors:
   - sylv256
+  - Kilip1000
 ---
 
 This chapter will teach you graphics programming and how GPUs work. Before we do that, let's first
@@ -23,14 +24,12 @@ You will see these terms often in this guide from now on, so feel free to come b
 you're confused.
 
 ## A Brief History of Graphics
-Before GPU was first coined, graphics processors were called Graphics Accelerators, a device that
+Before GPU was first coined, graphics processors were called **Graphics Accelerators**, a device that
 hardware accelerated fixed function graphical operations (research and citation needed). **Fixed
 function graphics** was a previously dominant mode of graphics programming wherein GPUs had
 predefined operations programmers could utilize, hence fixed function. This also meant many GPUs
 needed the program to upload **mesh** data every frame, but we'll talk more about what that means
 later in this guide (verify, citation needed).
-
-Blah blah blah, this s*!@+ is kind of boring.
 
 ## Parallelism
 Modern GPUs are programmable parallel processors. That means you can make a program that can run
