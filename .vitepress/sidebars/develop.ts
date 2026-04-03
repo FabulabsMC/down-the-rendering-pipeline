@@ -209,20 +209,43 @@ export default [
     collapsed: true,
     items: [
       {
-        text: "develop.rendering.basic_concepts",
-        link: "/develop/rendering/basic-concepts",
-      },
-      {
-        text: "develop.rendering.gui_graphics",
-        link: "/develop/rendering/gui-graphics",
-      },
-      {
-        text: "develop.rendering.hud",
-        link: "/develop/rendering/hud",
-      },
-      {
-        text: "develop.rendering.world",
-        link: "/develop/rendering/world",
+        text: "develop.rendering.dtrp",
+        items: [
+          {
+            text: "develop.rendering.dtrp.introduction",
+            link: "/develop/rendering/dtrp/introduction",
+          },
+          {
+            text: "develop.rendering.dtrp.ch1",
+            items: [
+              {
+                text: "develop.rendering.dtrp.ch1.basic_concepts",
+                link: "/develop/rendering/dtrp/ch1/basic-concepts",
+              },
+              {
+                text: "develop.rendering.dtrp.ch1.gui_graphics",
+                link: "/develop/rendering/dtrp/ch1/gui-graphics",
+              },
+              {
+                text: "develop.rendering.dtrp.ch1.hud",
+                link: "/develop/rendering/dtrp/ch1/hud",
+              },
+              {
+                text: "develop.rendering.dtrp.ch1.world",
+                link: "/develop/rendering/dtrp/ch1/world",
+              },
+            ],
+          },
+          {
+            text: "develop.rendering.dtrp.ch2",
+            items: [
+              {
+                text: "develop.rendering.dtrp.ch2.gpus",
+                link: "/develop/rendering/dtrp/ch2/gpus"
+              }
+            ],
+          },
+        ],
       },
       {
         text: "develop.rendering.gui",
