@@ -255,6 +255,16 @@ export default [
               },
             ],
           },
+          {
+            text: "develop.rendering.dtrp.chapter_three",
+            collapsed: true,
+            items: [
+              {
+                text: "develop.rendering.dtrp.chapter_three.recap",
+                link: "/develop/rendering/dtrp/chapter-three/recap"
+              }
+            ],
+          },
         ],
       },
       {

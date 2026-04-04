@@ -6,6 +6,14 @@ authors:
   - Kilip1000
 ---
 
+:::info PREREQUISITES
+
+If you haven't read [Chapter 1](../chapter-one/basic-concepts) yet, go through that chapter and come
+back when you are done. This guide is heavily chronological and requires full reading and practice
+to be effective.
+
+:::
+
 Before we get into graphics programming and how GPUs work in the rest of this chapter, let's first
 get some terminology out of the way.
 
