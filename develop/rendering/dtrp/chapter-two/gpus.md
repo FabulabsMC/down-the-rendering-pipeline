@@ -17,6 +17,11 @@ These are commonly found in laptops and low budget computers.
 
 A **graphics card** is a larger device with a dedicated GPU, VRAM (video RAM), and other components.
 
+A **fragment** is a unit of color also known as a pixel, though in graphics programming, fragments
+may momentarily overlap before being discarded.
+
+**Rasterization** is the conversion of geometric data to fragments.
+
 **Parallelism** is a mode of operation in which a program executes code in multiple independent
 contexts simultaneously. In other words, a lot of code runs many times (nearly) at the same time.
 
@@ -41,3 +46,7 @@ compared to GPUs. However, GPUs are unable to compete with CPUs when it comes to
 boolean conditional operation like an if-statement) because where GPUs have to execute these
 branches in parallel, splitting each time, CPUs have evolved to predict which piece of a branch to
 take (verify, citation needed).
+
+This property of parallelism is therefore utilized in the field of computer graphics to efficiently
+construct meshes, **rasterize**, and shade them, **blitting** them to the screen (a process wherein
+a rectangular region is directly copied to the screen).

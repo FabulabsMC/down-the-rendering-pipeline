@@ -216,32 +216,32 @@ export default [
             link: "/develop/rendering/dtrp/introduction",
           },
           {
-            text: "develop.rendering.dtrp.ch1",
+            text: "develop.rendering.dtrp.chapter-one",
             items: [
               {
-                text: "develop.rendering.dtrp.ch1.basic_concepts",
-                link: "/develop/rendering/dtrp/ch1/basic-concepts",
+                text: "develop.rendering.dtrp.chapter-one.basic_concepts",
+                link: "/develop/rendering/dtrp/chapter-one/basic-concepts",
               },
               {
-                text: "develop.rendering.dtrp.ch1.gui_graphics",
-                link: "/develop/rendering/dtrp/ch1/gui-graphics",
+                text: "develop.rendering.dtrp.chapter-one.gui_graphics",
+                link: "/develop/rendering/dtrp/chapter-one/gui-graphics",
               },
               {
-                text: "develop.rendering.dtrp.ch1.hud",
-                link: "/develop/rendering/dtrp/ch1/hud",
+                text: "develop.rendering.dtrp.chapter-one.hud",
+                link: "/develop/rendering/dtrp/chapter-one/hud",
               },
               {
-                text: "develop.rendering.dtrp.ch1.world",
-                link: "/develop/rendering/dtrp/ch1/world",
+                text: "develop.rendering.dtrp.chapter-one.world",
+                link: "/develop/rendering/dtrp/chapter-one/world",
               },
             ],
           },
           {
-            text: "develop.rendering.dtrp.ch2",
+            text: "develop.rendering.dtrp.chapter-two",
             items: [
               {
-                text: "develop.rendering.dtrp.ch2.gpus",
-                link: "/develop/rendering/dtrp/ch2/gpus"
+                text: "develop.rendering.dtrp.chapter-two.gpus",
+                link: "/develop/rendering/dtrp/chapter-two/gpus"
               }
             ],
           },
