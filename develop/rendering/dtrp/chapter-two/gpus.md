@@ -1,16 +1,18 @@
 ---
-name: GPUs and Parallelism
+title: GPUs and Parallelism
 description: An overview of how GPUs work and how they're used.
 authors:
   - sylv256
   - Kilip1000
 ---
 
-This chapter will teach you graphics programming and how GPUs work. Before we do that, let's first
+Before we get into graphics programming and how GPUs work in the rest of this chapter, let's first
 get some terminology out of the way.
 
+## Vocabulary
+
 A **GPU**, also known as a Graphics Processing Unit, is a type of processor that employs parallelism
-to complete tasks like graphics and other parallel computations.
+to complete tasks like graphics (reword, add more info?).
 
 An **integrated GPU** as opposed to a **dedicated GPU** is a type of GPU residing within a processor.
 These are commonly found in laptops and low budget computers.
@@ -25,11 +27,15 @@ may momentarily overlap before being discarded.
 **Parallelism** is a mode of operation in which a program executes code in multiple independent
 contexts simultaneously. In other words, a lot of code runs many times (nearly) at the same time.
 
-You will see these terms often in this guide from now on, so feel free to come back to this page if
-you're confused.
+A **vertex** is a geometric point (zero-dimensional) often used in graphics programming to create
+**primitive shapes** like triangles.
+
+You will see these and other **bolded** terms often in this guide from now on, so feel free to come
+back to this page if you're confused. Additionally, articles introducing new concepts may have
+Vocabulary sections.
 
 ## A Brief History of Graphics
-Before GPU was first coined, graphics processors were called **Graphics Accelerators**, a device that
+Before GPU was first coined, graphics processors were called **graphics accelerators**, a device that
 hardware accelerated fixed function graphical operations (research and citation needed). **Fixed
 function graphics** was a previously dominant mode of graphics programming wherein GPUs had
 predefined operations programmers could utilize, hence fixed function. This also meant many GPUs
@@ -47,6 +53,20 @@ boolean conditional operation like an if-statement) because where GPUs have to e
 branches in parallel, splitting each time, CPUs have evolved to predict which piece of a branch to
 take (verify, citation needed).
 
-This property of parallelism is therefore utilized in the field of computer graphics to efficiently
-construct meshes, **rasterize**, and shade them, **blitting** them to the screen (a process wherein
-a rectangular region is directly copied to the screen).
+This property of parallelism is thus utilized in the field of computer graphics to efficiently
+construct, rasterize, and shade meshes, **blitting** them to the screen (a process wherein
+a rectangular region of pixels is copied directly to the screen) (verify, citation needed). Programs
+on the GPU called **shaders** then perform these operations on multiple vertices and fragments
+simultaneously to compose the frame (verify, citation needed).
+
+Note: maybe we can do something to make this more interesting to read?
+
+## Conclusion
+In theory, GPUs sound perfect for graphics, but we are only scratching the surface. Throughout the
+rest of this chapter, we'll be exploring how to best utilize GPUs in rendering with Blaze3D. However,
+Chapter 2 will be focused primarily on rendering theory and its application in a more general
+context than Minecraft.
+
+Note: improve this, it's bland and I don't have the energy rn
+Note: also explain a little about how GPUs use math like matrices and vertices as a segue into the
+next article

@@ -216,33 +216,43 @@ export default [
             link: "/develop/rendering/dtrp/introduction",
           },
           {
-            text: "develop.rendering.dtrp.chapter-one",
+            text: "develop.rendering.dtrp.chapter_one",
+            collapsed: true,
             items: [
               {
-                text: "develop.rendering.dtrp.chapter-one.basic_concepts",
+                text: "develop.rendering.dtrp.chapter_one.basic_concepts",
                 link: "/develop/rendering/dtrp/chapter-one/basic-concepts",
               },
               {
-                text: "develop.rendering.dtrp.chapter-one.gui_graphics",
+                text: "develop.rendering.dtrp.chapter_one.gui_graphics",
                 link: "/develop/rendering/dtrp/chapter-one/gui-graphics",
               },
               {
-                text: "develop.rendering.dtrp.chapter-one.hud",
+                text: "develop.rendering.dtrp.chapter_one.hud",
                 link: "/develop/rendering/dtrp/chapter-one/hud",
               },
               {
-                text: "develop.rendering.dtrp.chapter-one.world",
+                text: "develop.rendering.dtrp.chapter_one.world",
                 link: "/develop/rendering/dtrp/chapter-one/world",
               },
             ],
           },
           {
-            text: "develop.rendering.dtrp.chapter-two",
+            text: "develop.rendering.dtrp.chapter_two",
+            collapsed: true,
             items: [
               {
-                text: "develop.rendering.dtrp.chapter-two.gpus",
-                link: "/develop/rendering/dtrp/chapter-two/gpus"
-              }
+                text: "develop.rendering.dtrp.chapter_two.gpus",
+                link: "/develop/rendering/dtrp/chapter-two/gpus",
+              },
+              {
+                text: "develop.rendering.dtrp.chapter_two.linear_algebra",
+                link: "/develop/rendering/dtrp/chapter-two/linear-algebra",
+              },
+              {
+                text: "develop.rendering.dtrp.chapter_two.vertices_indices",
+                link: "/develop/rendering/dtrp/chapter-two/vertices-indices",
+              },
             ],
           },
         ],
