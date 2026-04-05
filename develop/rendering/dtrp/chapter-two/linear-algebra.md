@@ -17,7 +17,7 @@ TODO: Possibly say a matrix may have any number of dimensions.
 
 ## Vectors
 
-A vector is a geometric object with a direction and a length, it can be thought of an arrow pointing from one location to another.
+A vector is a geometric object with a direction and a length, it can be thought of as an arrow pointing from one location to another.
 A vector may be added to another by aligning the toe of the first to the tip of the second, or vice versa.
 
 A vector may be used to model the direction of a ray of light hitting a surface, and a vector operation may be used to model said ray bouncing of the surface.
