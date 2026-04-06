@@ -85,6 +85,7 @@ export default defineVersionedConfig(
       shikiSetup: async (shiki) => {
         await shiki.loadTheme("github-light", "github-dark");
       },
+      math: true,
     },
 
     rewrites: { "translated/:locale/(.*)": ":locale/(.*)" },
