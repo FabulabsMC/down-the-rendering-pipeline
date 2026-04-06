@@ -74,7 +74,10 @@ In theory, GPUs sound perfect for graphics, but we are only scratching the surfa
 rest of this chapter, we'll be exploring how to best utilize GPUs in rendering with Blaze3D. However,
 Chapter 2 will be focused primarily on rendering theory and its application in a more general
 context than Minecraft.
+Graphics cards are quite varied in that different companies may prioritize the speed of different
+calculations, some may focus on the speed of matrix-multiplication, others may (TODO, add other examples)
 
+TODO: Make the sentences flow better, and reorder things, so the last sentence fits in better.
 Note: improve this, it's bland and I don't have the energy rn
 Note: also explain a little about how GPUs use math like matrices and vertices as a segue into the
 next article
