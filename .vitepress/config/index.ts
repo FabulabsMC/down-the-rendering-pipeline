@@ -82,10 +82,10 @@ export default defineVersionedConfig(
             }))
       ),
       lineNumbers: true,
+      math: true,
       shikiSetup: async (shiki) => {
         await shiki.loadTheme("github-light", "github-dark");
       },
-      math: true,
     },
 
     rewrites: { "translated/:locale/(.*)": ":locale/(.*)" },
