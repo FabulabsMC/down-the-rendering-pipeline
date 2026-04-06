@@ -8,7 +8,7 @@ authors:
 ## Matrices
 
 A matrix is a grid of numbers with certain mathematical qualities that make them very useful for graphics programming.
-Namely, a certain number of mathematical operations such as **addition**, **subtraction**, and **multiplication** may be performed on them.
+Namely, a number of mathematical operations such as **addition**, **subtraction**, and **multiplication** may be performed on them.
 
 A matrix can be used to store a number of numerical values in a variety of units like spacial dimensions, e.g. the position a minecraft block should be rendered.
 
