@@ -56,7 +56,8 @@ Kilip, stop deleting this. Yes, it's necessary, and yes, we need to expand this 
 ## Parallelism
 Modern GPUs are programmable parallel processors. That means you can make a program that can run
 many times every second, a vital function in modern computer graphics as CPUs are unmatched in parallelism when
-compared to GPUs. However, GPUs are unable to compete with CPUs when it comes to **branching** (a
+compared to GPUs. (verify, citation needed)
+However, GPUs are unable to compete with CPUs when it comes to **branching** (a
 boolean conditional operation like an if-statement) because where GPUs have to execute these
 branches in parallel, splitting each time, CPUs have evolved to predict which piece of a branch to
 take (verify, citation needed).
