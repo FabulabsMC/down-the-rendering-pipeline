@@ -23,10 +23,10 @@ get some terminology out of the way.
 A **GPU**, also known as a *Graphics Processing Unit*, is a type of processor that employs parallelism
 to complete tasks like graphics rendering.
 
-An **integrated GPU** as opposed to a **dedicated GPU** is a type of **GPU** residing within a processor, most of the time a **CPU** (*Central Processing Unit*).
+An **integrated GPU** as opposed to a **dedicated GPU** is a type of **GPU** residing within a processor, most of the time a **CPU** (Central Processing Unit).
 These are commonly found in laptops and low budget computers.
 
-A **graphics card** is a larger device with a dedicated **GPU**, **VRAM** (video RAM), and other components.
+A **graphics card** is a larger device with a dedicated GPU, VRAM (video RAM), and other components.
 
 A **fragment** is a unit of color also known as a pixel, though in graphics programming, fragments
 may momentarily overlap before being discarded.
@@ -48,7 +48,7 @@ Before **GPU** was first coined, **graphics processors** were called **graphics 
 hardware accelerated fixed function graphical operations (research and citation needed). **Fixed
 function graphics** was a previously dominant mode of graphics programming, where **GPU**s had
 _predefined operations_ programmers could use. That's also why it was called "_fixed function_". This also meant many **GPU**s
-needed the program to upload **mesh data** every frame, but we'll talk more about what that means
+needed the program to upload **mesh** data every frame, but we'll talk more about what that means
 later in this guide `(verify, citation needed)`.
 :::danger EDITOR COMMENT:
 Blah blah blah, this s*!@+ is kind of boring. Add more info here.
@@ -76,10 +76,10 @@ maybe we can do something to make this more interesting to read?
 [Fabric Documentation.url](../../../../../../../AppData/Local/Temp/Fabric%20Documentation.url)
 ## Conclusion
 In theory, **GPU**s sound perfect for graphics, but we are only scratching the surface. Throughout the
-rest of this chapter, we'll be exploring how to best utilize **GPU**s in rendering with _Blaze3D_. However,
+rest of this chapter, we'll be exploring how to best utilize **GPU**s in rendering with *Blaze3D*. However,
 Chapter 2 will be focused primarily on rendering theory and its application in a more general
 context than Minecraft.
-_Graphics cards_ are quite varied in that different companies may prioritize the speed of different
+*Graphics* cards are quite varied in that different companies may prioritize the speed of different
 calculations, some may focus on the speed of matrix-multiplication, others may `(TODO, add other examples)`
 
 :::danger EDITOR COMMENT:
