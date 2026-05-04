@@ -21,7 +21,7 @@ get some terminology out of the way.
 ## Vocabulary
 
 A **GPU**, also known as a *Graphics Processing Unit*, is a type of processor that employs parallelism
-to complete tasks like graphics rendering.
+to complete tasks like graphics rendering (reword, add more info?).
 
 An **integrated GPU** as opposed to a **dedicated GPU** is a type of **GPU** residing within a processor, most of the time a **CPU** (Central Processing Unit).
 These are commonly found in laptops and low budget computers.
@@ -47,7 +47,7 @@ Vocabulary sections.
 Before **GPU** was first coined, **graphics processors** were called **graphics accelerators**, a device that
 hardware accelerated fixed function graphical operations (research and citation needed). **Fixed
 function graphics** was a previously dominant mode of graphics programming, where **GPU**s had
-_predefined operations_ programmers could use. That's also why it was called "_fixed function_". This also meant many **GPU**s
+predefined operations programmers could use. That's also why it was called "_fixed function_". This also meant many **GPU**s
 needed the program to upload **mesh** data every frame, but we'll talk more about what that means
 later in this guide `(verify, citation needed)`.
 :::danger EDITOR COMMENT:
