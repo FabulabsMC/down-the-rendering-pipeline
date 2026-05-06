@@ -73,7 +73,7 @@ _simultaneously_ to compose the frame `(verify, citation needed)`.
 :::danger EDITOR COMMENT:
 maybe we can do something to make this more interesting to read?
 :::
-[Fabric Documentation.url](../../../../../../../AppData/Local/Temp/Fabric%20Documentation.url)
+
 ## Conclusion
 In theory, **GPU**s sound perfect for graphics, but we are only scratching the surface. Throughout the
 rest of this chapter, we'll be exploring how to best utilize **GPU**s in rendering with *Blaze3D*. However,

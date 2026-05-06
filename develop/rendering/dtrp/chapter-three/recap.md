@@ -13,4 +13,6 @@ requires full reading and practice to be effective.
 
 :::
 
+Now that you have learned about the names of common rendering hardware, the math required for this guide,
+and widely used terms for rendering processes, it is time to learn
 TODO
