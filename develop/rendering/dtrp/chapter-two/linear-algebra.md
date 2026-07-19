@@ -14,7 +14,6 @@ A matrix can be used to store a number of numerical values in a variety of units
 
 All matrices have a width and a height.
 TODO: Possibly mention application of matrix operations on PBR.
-TODO: Possibly say a matrix may have any number of dimensions.
 
 ## Vectors
 
@@ -29,4 +28,5 @@ Vectors may be expressed in a multitude of ways, some of which include:
 
 TODO: Possibly mention more ways a matrix could be expressed
 TODO: Maybe explain more vector operations or explain further that the result of vector addition is another vector from the toe of one to the tip of the other
+TODO: Possibly mention matrix-vector operations
 TODO: rest of **introduction** and article
